@@ -28,5 +28,6 @@ def problem2(b=b,valid=0):
                 valid +=1
     return valid
 
-ans = problem2()
-print(ans)
+ans1 = problem1()
+ans2 = problem2()
+print(ans1,ans2)
