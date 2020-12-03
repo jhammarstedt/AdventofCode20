@@ -17,7 +17,6 @@ def problem1(b=b,valid=0):
     return valid
 
 def problem2(b=b,valid=0):
-    v2 = 0
     for i in b:
         index1 = int(i[0][0])-1 #since we have no 0
         index2 = int(i[0][1])-1
