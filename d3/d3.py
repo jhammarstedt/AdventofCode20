@@ -16,7 +16,7 @@ for i in strats:
             trees+=1    
         col = (col + i[1])%len(data[0])
         row +=i[0]
-    print(trees)
     prods *= trees
     all_t.append(trees)
+    
 print(prods)
