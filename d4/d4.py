@@ -1,11 +1,11 @@
 import sys
 import re
-# read the input to dict
-# make the set of needed variables
-# compare each item in dict and see if it has necessary keypairs
-
-
+"""
+Not the most efficient approach today, but it allowed me to practice some regex which was good :) 
+"""
 def read_inp():
+    """
+    Input parsing, this section needs a lot of improvement given all the list comps and iterations needed now"""
     data = sys.stdin.read()
     data = data.split('\r\n\r\n')
     data = [re.split(' |\r |\r\n',i) for i in data]
