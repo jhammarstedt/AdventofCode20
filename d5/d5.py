@@ -32,7 +32,7 @@ def main():
     ids.sort()
     for index,id in enumerate(ids):
         if index+ids[0] != id:
-            missing = index+ids[0]
+            missing = index+ids[0] #found the missing
             break
     print('Max id on plane: ',max_id)
     print('Your missing ID:', missing)
